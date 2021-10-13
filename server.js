@@ -21,6 +21,7 @@ app.use(cors());
 // Initialize the main project folder
 app.use(express.static('website'));
 
+/* GET & POST routes */
 app.get("/getQueryData", (req, res) => {
     res.send(projectData);
 })
