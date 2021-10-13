@@ -44,12 +44,16 @@ async function getZipCode()
         let fetchedData = await fetch('/getQueryData');
         let queryData = await fetchedData.json();
         console.log(queryData);
+        document.getElementById('date').innerHTML = `Today is ${queryData.date}`;
+        document.getElementById('temp').innerHTML = `Temperature is ${queryData.temperature}°C`;
+        document.getElementById('content').innerHTML = `That's why you're feeling ${queryData.feelings}`;
     }
     catch
     {
         console.error(error);
     }
     
+
     /*---------------- Two lines to test code ----------------*/
     console.log(zipCode);
     console.log(queryURL);
