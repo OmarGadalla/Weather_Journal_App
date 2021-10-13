@@ -35,7 +35,7 @@ The web app allows users to enter the zipcode of a desired destination together 
 13th of October 2021:
 
 - The fetching part(from the weather API & server) is done and working.
-- Only thing that's left is to use the fetched data to update the UI, still working on it
+- The UI is updated according to the user input
 
 # Footer
 [(Back to top)](#table-of-contents)
