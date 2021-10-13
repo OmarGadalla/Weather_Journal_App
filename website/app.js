@@ -48,15 +48,15 @@ async function getZipCode()
         document.getElementById('temp').innerHTML = `Temperature is ${queryData.temperature}°C`;
         document.getElementById('content').innerHTML = `That's why you're feeling ${queryData.feelings}`;
     }
-    catch
+    catch(error)
     {
-        console.error(error);
+        console.log('Ops', error);
     }
     
 
     /*---------------- Two lines to test code ----------------*/
-    console.log(zipCode);
-    console.log(queryURL);
+    // console.log(zipCode);
+    // console.log(queryURL);
     /*------------------------------------------------------- */
 }
 
