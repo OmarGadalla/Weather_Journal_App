@@ -2,7 +2,7 @@
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = (d.getMonth()+1) +'.'+ d.getDate()+'.'+ d.getFullYear();
 
 const myKey = "1c1a4348800c34f21b2f1dccb926fc72";
 
