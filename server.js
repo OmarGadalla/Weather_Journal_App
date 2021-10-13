@@ -21,6 +21,18 @@ app.use(cors());
 // Initialize the main project folder
 app.use(express.static('website'));
 
+app.get("/getQueryData", (req, res) => {
+    res.send(projectData);
+})
+
+app.post('/saveQueryData', (req, res) => {
+    
+    projectData.date =  req.body.date;
+    projectData.temperature = req.body.temperature;
+    projectData.feelings = req.body.feelings;
+
+    res.end();
+})
 
 // Setup Server
 const port = 5000;
