@@ -1,10 +1,47 @@
-# Weather-Journal App Project
+# Udacity Weather Journal App Project
+<!-- Add banner here -->
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+<!-- Describe your project in brief -->
+This Project's main focus is on Nodejs, Express, APIs & Asynchronous functions.
+A starter code was provided by Udacity, the objective was to make requests to openweathermap.org using user-defined zipcodes, save the data on the server,
+then fetch the data from the server and use it to update the UI on the page.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+# Table of contents
+
+- [Project Title](#udacity-landing-page-project)
+- [Table of contents](#table-of-contents)
+- [Technologies & Software](#technologies-and-software)
+- [Documentation](#documentation)
+- [Usage](#usage)
+- [Development](#development)
+- [Footer](#footer)
+
+# Technologies and Software
+
+I used HTML/CSS, Javascript, Nodejs & Express (with body parser & cors).
+for code editing I use Visual Studio Code.
+
+# Documentation
+
+I depended mainly on W3schools , MDN web docs.
+
+# Usage
+
+The web app allows users to enter the zipcode of a desired destination together with how they are feeling and displays weather info of that destination
+
+# Development
+
+13th of October 2021:
+
+- The fetching part(from the weather API & server) is done and working.
+- Only thing that's left is to use the fetched data to update the UI, still working on it
+
+# Footer
+[(Back to top)](#table-of-contents)
+
+
+Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
+
+
+
